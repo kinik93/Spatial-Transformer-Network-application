@@ -19,11 +19,11 @@ SpatialTransformer.py
 
 Package name | Version
 ------------ | -------------
-Numpy | 1.14.3 or higher
-OpenCV | 3.4.1 or higher
-Tensorflow | 1.7.0 or higher
-Keras | 2.1.6 or higher
-matplotlib | 2.2.2 or higher
+[Numpy](http://www.numpy.org/) | 1.14.3 or higher
+[OpenCV](http://opencv-python-tutroals.readthedocs.io/en/latest/) | 3.4.1 or higher
+[Tensorflow](https://www.tensorflow.org/) | 1.7.0 or higher
+[Keras](https://keras.io/) | 2.1.6 or higher
+[matplotlib](https://matplotlib.org/) | 2.2.2 or higher
 
 ## Run the scripts
 
