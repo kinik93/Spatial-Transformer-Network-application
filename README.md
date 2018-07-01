@@ -38,7 +38,7 @@ python STN.py
 
 #### Training process gif sample
 
-![Alt Text](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/STNres.gif)
+![Alt Text](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/depth.gif)
 
 
 ## References
