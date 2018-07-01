@@ -34,7 +34,7 @@ python STN.py
 ## Experiment results
 
 #### Loss functions
-<img src="https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/lossTrend.png" alt="Loss function">
+<img border: 1px solid black; src="https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/lossTrend.png" alt="Loss function">
 
 #### Training process gif sample
 
