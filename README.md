@@ -3,7 +3,7 @@ Application of Spatial transformer network to a hand alignment task.
 
 All results refer to the dataset avaiable in this repository.
 
-A full description of this project is provided in <a href="https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/ImageAnalysisArticle.pdf">ImageAnalysisArticle.pd</a>
+A full description of this project is provided in <a href="https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/ImageAnalysisArticle.pdf">ImageAnalysisArticle.pdf</a>
 
 ## Getting started
 The dataset is created running TODO.cpp source file on Windows OS...
@@ -32,6 +32,9 @@ python STN.py
 ```
 
 ## Experiment results
+
+#### Loss functions
+<img src="https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/lossTrend.png" alt="Loss function" border="5">
 
 #### Training process gif sample
 
