@@ -37,6 +37,8 @@ python STN.py
 
 
 ## References
+ * [1] https://arxiv.org/abs/1506.02025
+ * [2] https://github.com/oarriaga/spatial_transformer_networks
 
 ## License
 
