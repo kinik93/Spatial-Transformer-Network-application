@@ -3,6 +3,8 @@ Application of Spatial transformer network to a hand alignment task.
 
 All results refer to the dataset avaiable in this repository.
 
+A full description of this project is provided in "ImageAnalysisArticle.pdf"
+
 ## Getting started
 The dataset is created running TODO.cpp source file on Windows OS...
 The STN.py script includes the code to ...
