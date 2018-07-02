@@ -6,7 +6,7 @@ All results refer to the dataset avaiable <a href="https://drive.google.com/open
 A full description of this project is provided in <a href="https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/ImageAnalysisArticle.pdf">ImageAnalysisArticle.pdf</a>
 
 ## Getting started
-If you want to create your own dataset run [acquisition.cpp](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/acquisition.cpp) source file on Windows OS and arrange the dataset folder like us. 
+If you want to create your own dataset run [acquisition.cpp](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/acquisition.cpp) source file on Windows OS and arrange the dataset folder like we did. 
 The [STNtest](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/STNtest.ipynb) script includes the code to test the network.
 
 ### Dataset creation requirements
