@@ -137,7 +137,7 @@ void onNewDepthSample(DepthNode node, DepthNode::NewSampleReceivedData data)
 
 	// wait for 'esc' for terminating the acquisition
 	// You can use cvWaitKey(-1) if you want to control the stream frame by frame
-	if (cvWaitKey(-1) == 27) g_context.quit();
+	if (cvWaitKey(10) == 27) g_context.quit();
     
 }
 
@@ -376,7 +376,7 @@ int main(int argc, char* argv[])
 
     g_context.startNodes();
     g_context.run();
-	cvDestroyAllWindows();
+    cvDestroyAllWindows();
     g_context.stopNodes();
 
 
@@ -385,7 +385,7 @@ int main(int argc, char* argv[])
 		std::string folderName = "img/bin/";
 		std::stringstream sstm;
 		std::string imgName = "frame_";
-        sstm << folderName << imgName << file_index << ".bin";
+	sstm << folderName << imgName << file_index << ".bin";
 		std::string filename = sstm.str();
 		FILE* in = fopen(filename.c_str(), "rb"); //mode: read binary file
 
@@ -412,19 +412,18 @@ int main(int argc, char* argv[])
 		for(int row=0; row < H; row++){
 			for(int col= 0; col< W; col++){
 				fread(&temp, 2, 1, in); //read 1 object of 2 bytes of the stream in and save in temp variable
-				
+
 				if (temp<min){
 					min = temp;
 					rowMax = row;
 					colMax = col;
 				}
-
 			}
 		}
 		fclose(in);
 
 		FILE* in2 = fopen(filename.c_str(), "rb"); //mode: read binary file
-		
+
 		for(int row=0; row < H; row++){
 			for(int col= 0; col< W; col++){
 				fread(&temp, 2, 1, in); //read 1 object of 2 bytes of the stream in and save in temp variabl
@@ -445,13 +444,8 @@ int main(int argc, char* argv[])
 		saveStream_8 << "img/" << "8bit/" << imgName << file_index << ".png";
 		imwrite(saveStream_8.str() , M_8);
 
-
-		
-
 		file_index += 1;
 	}
-
-
 
     return 0;
 }
