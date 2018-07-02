@@ -26,7 +26,7 @@ Package name | Version
 [Keras](https://keras.io/) | 2.1.6 or higher
 [matplotlib](https://matplotlib.org/) | 2.2.2 or higher
 
-and SpatialTransformer.py [2](#References) 
+and SpatialTransformer.py [[2](##References) ]
 
 ## Run the scripts
 The notebook STN.ipynb file is provided for a user friendly mode. We recommend to use STN.py in a real use context. Run this script in this mode:
