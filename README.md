@@ -35,7 +35,8 @@ Package name | Version
 and [SpatialTransformer.py](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/spatial_transformer.py) [2]
 
 ## Run the scripts
-The notebook [STNtest.ipynb](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/STNtest.ipynb) file is provided for a user friendly mode. 
+The notebook [STNtest.ipynb](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/STNtest.ipynb) file is provided for a user friendly mode to test the application. Pretrained model weights can be loaded from [weights_last.h5](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/weights_last.h5).
+
 We recommend to use [STN_train.py](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/STN_train.py) in a real use context to train the network, just type:
 
 ```
