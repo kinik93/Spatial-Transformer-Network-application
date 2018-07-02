@@ -1,7 +1,7 @@
 # Spatial-Transformer-Network-application
 Application of Spatial transformer network to a hand alignment task.
 
-All results refer to the <a href="https://drive.google.com/open?id=1Kc66EO2p9rw08ZKu6PknQlPZKJsHiCfo">dataset</a> avaiable in this repository.
+All results refer to the dataset avaiable <a href="https://drive.google.com/open?id=1Kc66EO2p9rw08ZKu6PknQlPZKJsHiCfo">here</a>.
 
 A full description of this project is provided in <a href="https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/ImageAnalysisArticle.pdf">ImageAnalysisArticle.pdf</a>
 
