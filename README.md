@@ -24,17 +24,19 @@ An example of depth frames (8 bit PNG encoding) acquisition is shown in the foll
 
 Package name | Version
 ------------ | -------------
+[Python](https://www.python.org/) | 2.7 
 [Numpy](http://www.numpy.org/) | 1.14.3 or higher
 [OpenCV](http://opencv-python-tutroals.readthedocs.io/en/latest/) | 3.4.1 or higher
 [Tensorflow](https://www.tensorflow.org/) | 1.7.0 or higher
 [Keras](https://keras.io/) | 2.1.6 or higher
 [matplotlib](https://matplotlib.org/) | 2.2.2 or higher
+[PIL](https://pillow.readthedocs.io/en/3.0.x/index.html) | 3.4.2 or higher
 
-and SpatialTransformer.py [2]
+and [SpatialTransformer.py](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/spatial_transformer.py) [2]
 
 ## Run the scripts
-The notebook STNtest.ipynb file is provided for a user friendly mode. 
-We recommend to use STN_train.py in a real use context to train the network, just type:
+The notebook [STNtest.ipynb](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/STNtest.ipynb) file is provided for a user friendly mode. 
+We recommend to use [STN_train.py](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/STN_train.py) in a real use context to train the network, just type:
 
 ```
 python STN_train.py
