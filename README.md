@@ -16,6 +16,9 @@ The file [acquisition.cpp](https://github.com/kinik93/Spatial-Transformer-Networ
 
 and obviously a depth camera like *Senz3d* or *DepthSense*.
 
+An example of depth frames acquisition is shown in the following gif
+![Alt Text](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/makingOfDataset.gif)
+
 ### STN requirements
 
 Package name | Version
