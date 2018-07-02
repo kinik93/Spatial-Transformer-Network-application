@@ -1,21 +1,22 @@
 # Spatial-Transformer-Network-application
 Application of Spatial transformer network to a hand alignment task.
 
-All results refer to the dataset avaiable in this repository.
+All results refer to the <a href="#">dataset</a> avaiable in this repository.
 
 A full description of this project is provided in <a href="https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/ImageAnalysisArticle.pdf">ImageAnalysisArticle.pdf</a>
 
 ## Getting started
-The dataset is created running TODO.cpp source file on Windows OS...
-The STN.py script includes the code to ...
+If you want to create your own dataset run TODO.cpp source file on Windows OS and arrange the dataset folder like us. 
+The STN.ipynb script includes the code to train and test the network.
 
 ### Dataset creation requirements
 TODO.cpp file has the following dependecies:
-* DepthSense SDK (avaiable at https://www.sony-depthsensing.com/Support/DownloadLegacyDriver after registration)
-* OPENCV 3.4.1
+* [DepthSense SDK](https://www.sony-depthsensing.com/Support/DownloadLegacyDriver)
+* [OPENCV 2.4.9](https://opencv.org/releases.html)
+
+and obviously a depth camera like *Senz3d* or *DepthSense*.
 
 ### STN requirements
-SpatialTransformer.py
 
 Package name | Version
 ------------ | -------------
@@ -25,8 +26,10 @@ Package name | Version
 [Keras](https://keras.io/) | 2.1.6 or higher
 [matplotlib](https://matplotlib.org/) | 2.2.2 or higher
 
-## Run the scripts
+and SpatialTransformer.py [2](#References) 
 
+## Run the scripts
+The notebook STN.ipynb file is provided for a user friendly mode. We recommend to use STN.py in a real use context. Run this script in this mode:
 ```
 python STN.py
 ```
