@@ -10,7 +10,7 @@ If you want to create your own dataset run [acquisition.cpp](https://github.com/
 The STN.ipynb script includes the code to train and test the network.
 
 ### Dataset creation requirements
-[acquisition.cpp](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/acquisition.cpp) file has the following dependecies:
+The file [acquisition.cpp](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/acquisition.cpp) has the following dependecies:
 * [DepthSense SDK](https://www.sony-depthsensing.com/Support/DownloadLegacyDriver)
 * [OPENCV 2.4.9](https://opencv.org/releases.html)
 
