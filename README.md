@@ -7,7 +7,7 @@ A full description of this project is provided in <a href="https://github.com/ki
 
 ## Getting started
 If you want to create your own dataset run [acquisition.cpp](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/acquisition.cpp) source file on Windows OS and arrange the dataset folder like us. 
-The STN.ipynb script includes the code to train and test the network.
+The [STNtest](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/STNtest.ipynb) script includes the code to test the network.
 
 ### Dataset creation requirements
 The file [acquisition.cpp](https://github.com/kinik93/Spatial-Transformer-Network-application/blob/master/acquisition.cpp) has the following dependecies:
@@ -33,9 +33,11 @@ Package name | Version
 and SpatialTransformer.py [2]
 
 ## Run the scripts
-The notebook STN.ipynb file is provided for a user friendly mode. We recommend to use STN.py in a real use context. Run this script in this mode:
+The notebook STNtest.ipynb file is provided for a user friendly mode. 
+We recommend to use STN_train.py in a real use context to train the network, just type:
+
 ```
-python STN.py
+python STN_train.py
 ```
 
 ## Experiment results
